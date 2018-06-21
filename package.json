@@ -1,0 +1,46 @@
+{
+  "name": "mobile-safari-fullscreen",
+  "version": "0.0.0-semantically-released",
+  "description": "Fix for mobile Safari fullscreen issue",
+  "main": "dist/index.js",
+  "engines": {
+    "node": "> 4",
+    "npm": "> 3"
+  },
+  "scripts": {
+    "add-contributor": "kcd-scripts contributors add",
+    "build": "kcd-scripts build",
+    "lint": "kcd-scripts lint",
+    "test": "kcd-scripts test",
+    "test:update": "npm test -- --updateSnapshot --coverage",
+    "validate": "kcd-scripts validate",
+    "setup": "npm install && npm run validate -s",
+    "precommit": "kcd-scripts precommit"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "stereobooster <stereobooster@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "kcd-scripts": "^0.36.1"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/kcd-scripts/eslint.js"
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "coverage",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stereobooster/mobile-safari-fullscreen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stereobooster/mobile-safari-fullscreen/issues"
+  },
+  "homepage": "https://github.com/stereobooster/mobile-safari-fullscreen#readme"
+}
