@@ -25,7 +25,21 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "kcd-scripts": "^0.36.1"
+    "babel-loader": "7.1.4",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "kcd-scripts": "0.39.1",
+    "prop-types": "15.6.2",
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
+    "react-test-renderer": "16.4.1",
+    "react-testing-library": "3.1.7"
+  },
+  "peerDependencies": {
+    "prop-types": ">=15",
+    "react": ">=0.14.x"
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"

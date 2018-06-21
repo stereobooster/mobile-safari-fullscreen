@@ -22,11 +22,11 @@
 
 ## The problem
 
-// TODO
+There is long standing bug in Mobile Safari https://bugs.webkit.org/show_bug.cgi?id=153852.
 
 ## This solution
 
-// TODO
+This React component implements solution described in https://www.eventbrite.com/engineering/mobile-safari-why/ e.g. it always shows top and bottom bars in the Mobile Safari.
 
 ## Table of Contents
 
@@ -53,11 +53,18 @@ npm install --save mobile-safari-fullscreen
 
 ## Usage
 
-// TODO
+```js
+import FullScreen from 'mobile-safari-fullscreen'
+import styles from 'mobile-safari-fullscreen/index.module.css'
+
+;<FullScreen classNames={styles} isOpen={isOpen}>
+  <YourModalHere isOpen={isOpen} />
+</FullScreen>
+```
 
 ## Inspiration
 
-// TODO
+https://www.eventbrite.com/engineering/mobile-safari-why/
 
 ## Other Solutions
 

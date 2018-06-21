@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FullScreen Renders without crashing in Android 1`] = `"test"`;
+
+exports[`FullScreen Renders without crashing in Android closed 1`] = `"test"`;
+
+exports[`FullScreen Renders without crashing in iPhone 1`] = `"test"`;
+
+exports[`FullScreen Renders without crashing in iPhone closed 1`] = `"test"`;
